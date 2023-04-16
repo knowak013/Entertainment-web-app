@@ -1,24 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/desktop.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <title>Frontend Mentor | Entertainment web app</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="assets/logo.svg" alt="logo" /></div>
+      <nav class="nav-items">
+        <a class="nav-items--home">
+          <img src="assets/icon-nav-home.svg" alt="home icon" />
+        </a>
+        <a class="nav-items--movies">
+          <img src="assets/icon-nav-movies.svg" alt="movies icon" />
+        </a>
+        <a class="nav-items--TV-series">
+          <img src="assets/icon-nav-tv-series.svg" alt="TV series icon" />
+        </a>
+        <a class="nav-items--favorite">
+          <img src="assets/icon-nav-bookmark.svg" alt="favorite icon" />
+        </a>
+      </nav>
+      <div class="oval"><img src="assets/image-avatar.png" alt="avatar" /></div>
+    </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <section class="search">
+      <form class="form" id="form">
+         <button type="submit" class="search--btn" id="searchBtn"><img src="assets/icon-search.svg" alt="search button"/></button>
+         <input type="text" placeholder="Search for movies or TV series" name="searchInput" id="searchInput" class="search--input"></input>
+         <span class="" id="searchWrongSpan"></span>
+        </form>
+      
+    </section>
+
+    <section class="trending">
+
+    </section>
+
+    <section class="recomended">
+      <h1>Recommended for you</h1>
+
+      <div class="recomended--box">
+
+        <div class="recomended--box--item">
+          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
+          <img class="recomended--box--item-img" src="small.jpg">
+          <div class="recomended--box--item-desc">
+            <p>2019</p>
+            <div class="recomended--box--item-desc-dot"></div>
+            <div class="recomended--box--item-desc-category">
+              <img src="assets/icon-category-movie.svg"/>
+              <p>Movie</p>
+            </div>
+            <div class="recomended--box--item-desc-dot"></div>
+            <p>18+</p>
+          </div>
+          <h2>The Great Lands</h2>
+        </div>
   
-  <title>Frontend Mentor | Entertainment web app</title>
-</head>
-<body>
+        <div class="recomended--box--item">
+          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
+          <img class="recomended--box--item-img" src="small1.jpg">
+            <div class="recomended--box--item-desc">
+            <p>2019</p>
+            <div class="recomended--box--item-desc-dot"></div>
+            <div class="recomended--box--item-desc-category">
+              <img src="assets/icon-category-movie.svg"/>
+              <p>Movie</p>
+            </div>
+            <div class="recomended--box--item-desc-dot"></div>
+            <p>18+</p>
+          </div>
+          <h2>The Great Lands</h2>
+        </div>
 
-  Search for movies or TV series
-  
-  Trending
+        <div class="recomended--box--item">
+          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
 
-  <!-- Display trending shows -->
+          <img class="recomended--box--item-img" src="small2.jpg">
+          <div class="recomended--box--item-desc">
+            <p>2019</p>
+            <div class="recomended--box--item-desc-dot"></div>
+            <div class="recomended--box--item-desc-category">
+              <img src="assets/icon-category-movie.svg"/>
+              <p>Movie</p>
+            </div>
+            <div class="recomended--box--item-desc-dot"></div>
+            <p>18+</p>
+            
+          </div>
+          <h2>The Great Lands</h2></div>
 
-  Recommended for you
+        <div class="recomended--box--item">
+          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
+          <img class="recomended--box--item-img" src="small.jpg">
+          <div class="recomended--box--item-desc">
+            <p>2019</p>
+            <div class="recomended--box--item-desc-dot"></div>
+            <div class="recomended--box--item-desc-category">
+              <img src="assets/icon-category-movie.svg"/>
+              <p>Movie</p>
+            </div>
+            <div class="recomended--box--item-desc-dot"></div>
+            <p>18+</p>
+          </div>
+          <h2>The Great Lands</h2>
+        </div>
 
-  <!-- Display recommended shows -->
-  
-</body>
+      </div>
+
+      <!-- Display recommended shows -->
+    </section>
+  </body>
 </html>
