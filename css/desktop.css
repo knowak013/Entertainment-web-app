@@ -1,0 +1,45 @@
+body{
+    display: flex;
+}
+/* NAV SECTION */
+header{
+width: 6.6vw;
+height: 40em;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-right: 0;
+
+}
+
+.nav-items{
+    flex-direction: column;
+    width: 0.8em;
+    height: 8.3em;
+
+
+}
+.logo{
+    margin-top: 1.4em;
+    margin-bottom: 3em;
+   
+
+}
+.oval{
+    margin-top: auto;
+    margin-bottom: 1.3em;
+}
+
+/* SEARCH SECTION */
+
+/* RECOMENDED SECTION */
+
+.recomended{
+    width: 86vw;
+    padding: 0 0;
+}
+.box{
+
+    grid-template-columns: auto auto auto auto;
+
+}

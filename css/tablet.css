@@ -1,0 +1,42 @@
+body{
+        font-size: 24px;
+}
+/* NAV SECTION */
+header{
+    margin: 1em;
+    border-radius: 10px;
+    height: 3em;
+}
+
+.nav-items{
+    width: 7em;
+}
+/* SEARCH SECTION */
+.search--input{
+
+    font-size: 24px;
+}
+main{
+    width: 86vw;
+    margin: 0 auto;
+}
+form{
+    margin: 2.6em 0 ;
+}
+.search--btn img{
+    margin-right: 0;
+}
+.search--input{
+    width: 86vw;
+}
+/* RECOMENDED SECTION */
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+
+}
+.recomended{
+    width: 86vw;
+    padding: 0 0;
+}

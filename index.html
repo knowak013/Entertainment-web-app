@@ -14,111 +14,40 @@
     <header>
       <div class="logo"><img src="assets/logo.svg" alt="logo" /></div>
       <nav class="nav-items">
-        <a class="nav-items--home">
-          <img src="assets/icon-nav-home.svg" alt="home icon" />
+        <a class="nav-items--home" id="navItemsHome">
+          <img class="svg" src="assets/icon-nav-home.svg" alt="home icon" />
         </a>
-        <a class="nav-items--movies">
-          <img src="assets/icon-nav-movies.svg" alt="movies icon" />
+        <a class="nav-items--movies" id="navItemsMovies">
+          <img class="svg" src="assets/icon-nav-movies.svg" alt="movies icon" />
         </a>
-        <a class="nav-items--TV-series">
-          <img src="assets/icon-nav-tv-series.svg" alt="TV series icon" />
+        <a class="nav-items--TV-series" id="navItemsTVSeries">
+          <img class="svg" src="assets/icon-nav-tv-series.svg" alt="TV series icon" />
         </a>
-        <a class="nav-items--favorite">
-          <img src="assets/icon-nav-bookmark.svg" alt="favorite icon" />
+        <a class="nav-items--favorite" id="navItemsFavorite">
+          <img class="svg" src="assets/icon-nav-bookmark.svg" alt="favorite icon" />
         </a>
       </nav>
       <div class="oval"><img src="assets/image-avatar.png" alt="avatar" /></div>
     </header>
-
+    <main>
     <section class="search">
       <form class="form" id="form">
          <button type="submit" class="search--btn" id="searchBtn"><img src="assets/icon-search.svg" alt="search button"/></button>
          <input type="text" placeholder="Search for movies or TV series" name="searchInput" id="searchInput" class="search--input"></input>
          <span class="" id="searchWrongSpan"></span>
         </form>
-      
     </section>
 
     <section class="trending">
 
     </section>
 
-    <section class="recomended">
-      <h1 id="h1">Recommended for you</h1>
-
-      <div class="recomended--box" id="recomendedBox">
-
-        <div class="recomended--box--item">
-          <div class="recomended--box--item-bookmark">
-            <img class="recomended--box--item-bookmark-icon" src="assets/icon-bookmark-empty.svg"/>
-          </div>
-          <img class="recomended--box--item-img" src="small.jpg">
-          <div class="recomended--box--item-desc">
-            <p>2019</p>
-            <div class="recomended--box--item-desc-dot"></div>
-            <div class="recomended--box--item-desc-category">
-              <img src="assets/icon-category-movie.svg"/>
-              <p>Movie</p>
-            </div>
-            <div class="recomended--box--item-desc-dot"></div>
-            <p>18+</p>
-          </div>
-          <h2>The Great Lands</h2>
-        </div>
-  
-        <div class="recomended--box--item">
-          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
-          <img class="recomended--box--item-img" src="small1.jpg">
-            <div class="recomended--box--item-desc">
-            <p>2019</p>
-            <div class="recomended--box--item-desc-dot"></div>
-            <div class="recomended--box--item-desc-category">
-              <img src="assets/icon-category-movie.svg"/>
-              <p>Movie</p>
-            </div>
-            <div class="recomended--box--item-desc-dot"></div>
-            <p>18+</p>
-          </div>
-          <h2>The Great Lands</h2>
-        </div>
-
-        <div class="recomended--box--item">
-          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
-
-          <img class="recomended--box--item-img" src="small2.jpg">
-          <div class="recomended--box--item-desc">
-            <p>2019</p>
-            <div class="recomended--box--item-desc-dot"></div>
-            <div class="recomended--box--item-desc-category">
-              <img src="assets/icon-category-movie.svg"/>
-              <p>Movie</p>
-            </div>
-            <div class="recomended--box--item-desc-dot"></div>
-            <p>18+</p>
-            
-          </div>
-          <h2>The Great Lands</h2></div>
-
-        <div class="recomended--box--item" id="recomendedBoxItem">
-          <div class="recomended--box--item-bookmark"><img  src="assets/icon-bookmark-empty.svg"/></div>
-          <img class="recomended--box--item-img" src="small.jpg">
-          <div class="recomended--box--item-desc">
-            <p>2019</p>
-            <div class="recomended--box--item-desc-dot"></div>
-            <div class="recomended--box--item-desc-category">
-              <img src="assets/icon-category-movie.svg"/>
-              <p>Movie</p>
-            </div>
-            <div class="recomended--box--item-desc-dot"></div>
-            <p>18+</p>
-          </div>
-          <h2>The Great Lands</h2>
-        </div>
-
-      </div>
-
-      <!-- Display recommended shows -->
-    </section>
+    
+      <section class="recomended">
+        <h1 id="h1">Recommended for you</h1>
+        <div class="box" id="box">
+      </section>
+    </main>
     <script type="module" src="js/app.js"></script>
   </body>
 </html>
